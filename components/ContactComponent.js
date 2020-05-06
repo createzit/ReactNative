@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import {ScrollView,View, Text} from 'react-native'
 import { Card } from 'react-native-elements';
+
+
 class Contact extends Component {
 
     constructor(props) {
@@ -17,6 +19,7 @@ class Contact extends Component {
     static navigationOptions = {
         title: 'Contact Us'
     }
+    
     render() {
         return (
             <ScrollView>
